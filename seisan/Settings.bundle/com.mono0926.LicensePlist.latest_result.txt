@@ -1,0 +1,9 @@
+name: STORESPaymentsSDK-iOS, nameSpecified: STORESPaymentsSDK-iOS, owner: Coiney-SDK, version: 1.1.4, source: https://github.com/Coiney-SDK/STORESPaymentsSDK-iOS
+
+name: swift-log, nameSpecified: swift-log, owner: apple, version: 1.5.2, source: https://github.com/apple/swift-log
+
+name: XMLCoder, nameSpecified: XMLCoder, owner: CoreOffice, version: 0.16.0, source: https://github.com/CoreOffice/XMLCoder
+
+add-version-numbers: false
+
+LicensePlist Version: 3.24.9

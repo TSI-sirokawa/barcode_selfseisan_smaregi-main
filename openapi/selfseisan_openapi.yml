@@ -1,0 +1,75 @@
+openapi: 3.0.0
+info:
+  title: セルフ精算API
+  version: 1.0.0
+servers:
+  - url: http://{host}:{port}/
+    description: url
+    variables:
+      host:
+        default: localhost
+      port:
+        default: "80"
+paths:
+  /api/status/seisaninfo:
+    get:
+      summary: 精算状態取得API
+      description: |
+        精算状態を取得する
+      responses:
+        "200":
+          description: |
+            成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  isPatientNoEnable:
+                    type: boolean
+                    nullable: false
+                    description: |
+                      患者番号表示が有効化どうか
+                    example: true
+                  patientNo:
+                    type: string
+                    nullable: true
+                    description: |
+                      患者番号
+                    example: "00002"
+                  isPatientNameEnable:
+                    type: boolean
+                    nullable: false
+                    description: |
+                      患者名表示が有効化どうか
+                    example: true
+                  patientName:
+                    type: string
+                    nullable: true
+                    description: |
+                      患者名
+                    example: "宮崎　花子"
+                  billingAmount:
+                    type: boolean
+                    description: |
+                      請求金額
+                    example: 580
+        "500":
+          description: |
+            サーバ内部エラー
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorReponse"
+
+components:
+  schemas:
+    ErrorReponse:
+      type: object
+      properties:
+        type:
+          type: string
+          example: "/api/status/seisaninfo"
+        title:
+          type: string
+          example: "internal"

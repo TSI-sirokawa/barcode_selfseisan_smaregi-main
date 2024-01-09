@@ -1,0 +1,1739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E08183B2984057A0046B1AC /* CregitSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08183A2984057A0046B1AC /* CregitSettingState.swift */; };
+		8E08183E298410AC0046B1AC /* STORES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08183D298410AC0046B1AC /* STORES.swift */; };
+		8E0818402985440D0046B1AC /* SettingCheckProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08183F2985440D0046B1AC /* SettingCheckProtocol.swift */; };
+		8E081842298559120046B1AC /* SelectedAutoCashierState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E081841298559120046B1AC /* SelectedAutoCashierState.swift */; };
+		8E08184429855EB40046B1AC /* ReceiptSeisanFinalizeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08184329855EB40046B1AC /* ReceiptSeisanFinalizeService.swift */; };
+		8E08184629855F9B0046B1AC /* TransactionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08184529855F9B0046B1AC /* TransactionResult.swift */; };
+		8E0818492985780F0046B1AC /* GrolyR08CommTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0818482985780F0046B1AC /* GrolyR08CommTestUseCase.swift */; };
+		8E08184B2985784D0046B1AC /* Groly300CommTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08184A2985784D0046B1AC /* Groly300CommTestUseCase.swift */; };
+		8E08184D298578850046B1AC /* STORESLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08184C298578850046B1AC /* STORESLoginUseCase.swift */; };
+		8E08184F298578BA0046B1AC /* SmaregiCommTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E08184E298578BA0046B1AC /* SmaregiCommTestUseCase.swift */; };
+		8E0818512986136C0046B1AC /* ViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0818502986136C0046B1AC /* ViewSetting.swift */; };
+		8E0818532986143E0046B1AC /* ViewSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0818522986143E0046B1AC /* ViewSettingState.swift */; };
+		8E0818552986AE4A0046B1AC /* AppSettingRepositoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0818542986AE4A0046B1AC /* AppSettingRepositoryFactory.swift */; };
+		8E15A3E22A5947D8003AC6FE /* BIZUDGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E15A3DE2A5947D7003AC6FE /* BIZUDGothic-Regular.ttf */; };
+		8E15A3E32A5947D8003AC6FE /* BIZUDGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E15A3DF2A5947D8003AC6FE /* BIZUDGothic-Bold.ttf */; };
+		8E15A3E42A5947D8003AC6FE /* BIZUDPGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E15A3E02A5947D8003AC6FE /* BIZUDPGothic-Regular.ttf */; };
+		8E15A3E52A5947D8003AC6FE /* BIZUDPGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E15A3E12A5947D8003AC6FE /* BIZUDPGothic-Bold.ttf */; };
+		8E15A3E72A597525003AC6FE /* seisanAppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15A3E62A597525003AC6FE /* seisanAppFont.swift */; };
+		8E15A3EA2A597591003AC6FE /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15A3E92A597591003AC6FE /* Shape.swift */; };
+		8E15A3EC2A5979BC003AC6FE /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E15A3EB2A5979BC003AC6FE /* RoundView.swift */; };
+		8E1F765A289994C900C4FEAB /* ReceiptBilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1F7659289994C900C4FEAB /* ReceiptBilling.swift */; };
+		8E2495102A79406000D1D192 /* PatientSeisanPrepareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24950F2A79406000D1D192 /* PatientSeisanPrepareProtocol.swift */; };
+		8E2495122A7942A400D1D192 /* MIUProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2495112A7942A400D1D192 /* MIUProgram.swift */; };
+		8E2495142A794C9200D1D192 /* PatientSeisanPrepareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2495132A794C9200D1D192 /* PatientSeisanPrepareService.swift */; };
+		8E2495272A79500300D1D192 /* MIUProgramStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2495262A79500300D1D192 /* MIUProgramStub.swift */; };
+		8E2495292A7A85C400D1D192 /* MIUProgramSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2495282A7A85C400D1D192 /* MIUProgramSettingState.swift */; };
+		8E24952B2A7A8EF700D1D192 /* MIUProgramTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E24952A2A7A8EF700D1D192 /* MIUProgramTestUseCase.swift */; };
+		8E2C3F5429C5266E008A96C6 /* TSISmaregiMedicalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F5329C5266E008A96C6 /* TSISmaregiMedicalRepository.swift */; };
+		8E2C3F5829C52B0A008A96C6 /* TemporaryTransacitonAddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F5729C52B0A008A96C6 /* TemporaryTransacitonAddItem.swift */; };
+		8E2C3F5C29C52C5B008A96C6 /* ORCARepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F5B29C52C5B008A96C6 /* ORCARepository.swift */; };
+		8E2C3F6029C52F24008A96C6 /* ORCARepoRepositorySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F5F29C52F24008A96C6 /* ORCARepoRepositorySetting.swift */; };
+		8E2C3F6429C52F7A008A96C6 /* TSISmaregiForMedicalRepositorySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F6329C52F7A008A96C6 /* TSISmaregiForMedicalRepositorySetting.swift */; };
+		8E2C3F6629C53615008A96C6 /* TemporaryTransacitonRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F6529C53615008A96C6 /* TemporaryTransacitonRepositoryProtocol.swift */; };
+		8E2C3F6829C53732008A96C6 /* TemporaryTransacitonAddItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2C3F6729C53732008A96C6 /* TemporaryTransacitonAddItemProtocol.swift */; };
+		8E31529728D5377800089DD3 /* STORESPaymentsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 8E31529628D5377800089DD3 /* STORESPaymentsSDK */; };
+		8E31529928D5377800089DD3 /* TCMPayment in Frameworks */ = {isa = PBXBuildFile; productRef = 8E31529828D5377800089DD3 /* TCMPayment */; };
+		8E31F5A429D85C5200189BCA /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 8E31F5A329D85C5200189BCA /* XMLCoder */; };
+		8E374E22295DC9D700A676D3 /* UInt8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E374E21295DC9D700A676D3 /* UInt8.swift */; };
+		8E374E24295DC9F300A676D3 /* UInt16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E374E23295DC9F300A676D3 /* UInt16.swift */; };
+		8E374E26295DCA0900A676D3 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E374E25295DCA0900A676D3 /* Date.swift */; };
+		8E374E29295F144500A676D3 /* Parity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E374E28295F144500A676D3 /* Parity.swift */; };
+		8E425E1E29D71DFC00F95E5B /* ORCARepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E425E1D29D71DFC00F95E5B /* ORCARepositoryTests.swift */; };
+		8E425E2529D7963A00F95E5B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E425E2429D7963A00F95E5B /* Settings.bundle */; };
+		8E51B0FC28D607FE008565CD /* CreditKesaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E51B0FB28D607FE008565CD /* CreditKesaiView.swift */; };
+		8E5285EB29E441A20097D68E /* ORCASettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5285EA29E441A20097D68E /* ORCASettingState.swift */; };
+		8E5285ED29E450FB0097D68E /* ORCACommTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5285EC29E450FB0097D68E /* ORCACommTestUseCase.swift */; };
+		8E5583BF2AB8221A0056AC4B /* PatientNoBarcodeModifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5583BE2AB8221A0056AC4B /* PatientNoBarcodeModifTests.swift */; };
+		8E60344F2978290700BE7D52 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60344E2978290700BE7D52 /* SettingViewModel.swift */; };
+		8E603452297834BD00BE7D52 /* AppSettingRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E603451297834BD00BE7D52 /* AppSettingRepositoryProtocol.swift */; };
+		8E603454297834EE00BE7D52 /* UserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E603453297834EE00BE7D52 /* UserDefaultsRepository.swift */; };
+		8E6034582979F9B900BE7D52 /* SettingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6034572979F9B900BE7D52 /* SettingError.swift */; };
+		8E60345A2979FBB900BE7D52 /* Groly300AutoCashierAdapterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6034592979FBB900BE7D52 /* Groly300AutoCashierAdapterSetting.swift */; };
+		8E60345C2979FC0500BE7D52 /* GrolyR08AutoCashierAdapterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60345B2979FC0500BE7D52 /* GrolyR08AutoCashierAdapterSetting.swift */; };
+		8E603460297EC23A00BE7D52 /* SettingValueAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60345F297EC23A00BE7D52 /* SettingValueAttr.swift */; };
+		8E603464297FF4E500BE7D52 /* TransactionResultRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E603463297FF4E500BE7D52 /* TransactionResultRepositoryProtocol.swift */; };
+		8E603466297FFC0600BE7D52 /* SmaregiPlatformRepositorySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E603465297FFC0600BE7D52 /* SmaregiPlatformRepositorySetting.swift */; };
+		8E6034682980A35F00BE7D52 /* AppSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6034672980A35F00BE7D52 /* AppSetting.swift */; };
+		8E60346A2980A52100BE7D52 /* AppSettingAutoCashierType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6034692980A52100BE7D52 /* AppSettingAutoCashierType.swift */; };
+		8E60346C298165C600BE7D52 /* GrolyR08AutoCashierAdapterSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60346B298165C600BE7D52 /* GrolyR08AutoCashierAdapterSettingState.swift */; };
+		8E60346E298165EE00BE7D52 /* Groly300AutoCashierAdapterSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60346D298165EE00BE7D52 /* Groly300AutoCashierAdapterSettingState.swift */; };
+		8E6034702981660400BE7D52 /* SmaregiPlatformSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E60346F2981660400BE7D52 /* SmaregiPlatformSettingState.swift */; };
+		8E603474298168C500BE7D52 /* AppSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E603473298168C500BE7D52 /* AppSettingState.swift */; };
+		8E603CF429FDE4AF00C16F80 /* EPosPrinterSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E603CF329FDE4AF00C16F80 /* EPosPrinterSetting.swift */; };
+		8E621CDC29C88E61001E2504 /* BillingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CDB29C88E61001E2504 /* BillingProtocol.swift */; };
+		8E621CDE29C89063001E2504 /* BillingLocalID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CDD29C89063001E2504 /* BillingLocalID.swift */; };
+		8E621CE029C892A8001E2504 /* PatientBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CDF29C892A8001E2504 /* PatientBarcode.swift */; };
+		8E621CE229C8A513001E2504 /* InvoiceNo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CE129C8A513001E2504 /* InvoiceNo.swift */; };
+		8E621CE429C8A568001E2504 /* InOutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CE329C8A568001E2504 /* InOutType.swift */; };
+		8E621CE629C8A817001E2504 /* TemporaryTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CE529C8A817001E2504 /* TemporaryTransaction.swift */; };
+		8E621CE829C95C96001E2504 /* KesaiMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CE729C95C96001E2504 /* KesaiMethodType.swift */; };
+		8E621CEA29C9D001001E2504 /* ShunoRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CE929C9D001001E2504 /* ShunoRepositoryProtocol.swift */; };
+		8E621CEC29C9EA26001E2504 /* Shuno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CEB29C9EA26001E2504 /* Shuno.swift */; };
+		8E621CEE29C9F235001E2504 /* PatientCardSeisanFinalizeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E621CED29C9F235001E2504 /* PatientCardSeisanFinalizeService.swift */; };
+		8E68FD322A0D9F03003FAC7A /* BillingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FD312A0D9F03003FAC7A /* BillingDetailView.swift */; };
+		8E6A118C2A9A291400D064E0 /* TempTransactionAddItemGetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A118B2A9A291400D064E0 /* TempTransactionAddItemGetService.swift */; };
+		8E6A118E2A9A38BA00D064E0 /* TempTransactionAddItemPrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6A118D2A9A38BA00D064E0 /* TempTransactionAddItemPrintService.swift */; };
+		8E70F33D2902D13D00567AF1 /* CreditKesaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E70F33C2902D13D00567AF1 /* CreditKesaiViewModel.swift */; };
+		8E724C922A320669003D5B6D /* PatientCardSeisanSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E724C912A320669003D5B6D /* PatientCardSeisanSetting.swift */; };
+		8E74B60D2A06025B00E6F732 /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74B60C2A06025B00E6F732 /* TransactionDetail.swift */; };
+		8E74B60F2A06388E00E6F732 /* KesaiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74B60E2A06388E00E6F732 /* KesaiResult.swift */; };
+		8E74B6112A068B4500E6F732 /* StubAutoCashierAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E74B6102A068B4500E6F732 /* StubAutoCashierAdapter.swift */; };
+		8E776CA62A055BEE001ECF00 /* TransactionDetailID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E776CA52A055BEE001ECF00 /* TransactionDetailID.swift */; };
+		8E7C64212A4DBE51008B26A1 /* AnnounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C64202A4DBE51008B26A1 /* AnnounceManager.swift */; };
+		8E7E60EE28F3BA6A008E40FA /* StanbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E60ED28F3BA6A008E40FA /* StanbyView.swift */; };
+		8E7E6E4A29B0E30E006AB2BD /* CanPayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E6E4929B0E30E006AB2BD /* CanPayout.swift */; };
+		8E7E6E4E29B16588006AB2BD /* CanPayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7E6E4D29B16512006AB2BD /* CanPayoutTests.swift */; };
+		8E80126629BF6E02000A6499 /* SeisanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80126529BF6E02000A6499 /* SeisanType.swift */; };
+		8E80126829C0A35A000A6499 /* SelectedBarcodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80126729C0A35A000A6499 /* SelectedBarcodeState.swift */; };
+		8E80126A29C0A396000A6499 /* AppSettingBarcodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80126929C0A396000A6499 /* AppSettingBarcodeType.swift */; };
+		8E80126C29C0B502000A6499 /* PatientCardSeisanFinalizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80126B29C0B501000A6499 /* PatientCardSeisanFinalizeView.swift */; };
+		8E80126E29C0B504000A6499 /* PatientCardSeisanFinalizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E80126D29C0B504000A6499 /* PatientCardSeisanFinalizeViewModel.swift */; };
+		8E802E2928A881BB00D112D2 /* SeisanCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E802E2828A881BB00D112D2 /* SeisanCompleteView.swift */; };
+		8E802E3C28A8C2F500D112D2 /* ReceiptSeisanUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E802E3B28A8C2F500D112D2 /* ReceiptSeisanUseCase.swift */; };
+		8E8188212A0A961300404C63 /* PatientCardSeisanSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8188202A0A961300404C63 /* PatientCardSeisanSettingState.swift */; };
+		8E8805962A9AB18D00ADFF2B /* CreditReceiptPrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8805952A9AB18D00ADFF2B /* CreditReceiptPrintService.swift */; };
+		8E88D2FF2AAA949500C402AE /* ContinuousTextPrintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88D2FE2AAA949500C402AE /* ContinuousTextPrintData.swift */; };
+		8E89271F2ABB2FC500C9C516 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89271E2ABB2FC500C9C516 /* HTTPServer.swift */; };
+		8E8927242ABC620800C9C516 /* NIOTransportServices in Frameworks */ = {isa = PBXBuildFile; productRef = 8E8927232ABC620800C9C516 /* NIOTransportServices */; };
+		8E8927272ABC63C300C9C516 /* CustomerDisplayAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8927262ABC63C300C9C516 /* CustomerDisplayAPIController.swift */; };
+		8E89272D2ABC667300C9C516 /* NIOHTTP1 in Frameworks */ = {isa = PBXBuildFile; productRef = 8E89272C2ABC667300C9C516 /* NIOHTTP1 */; };
+		8E89272F2ABC7FC200C9C516 /* SeisanInfoConfirmUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89272E2ABC7FC200C9C516 /* SeisanInfoConfirmUseCase.swift */; };
+		8E8927332AC0767400C9C516 /* CustomerDisplaySettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8927322AC0767400C9C516 /* CustomerDisplaySettingState.swift */; };
+		8E8927362AC07AB800C9C516 /* CustomerDisplaySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8927352AC07AB800C9C516 /* CustomerDisplaySetting.swift */; };
+		8E89273A2AC1B33100C9C516 /* HTTPServerSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8927392AC1B33100C9C516 /* HTTPServerSettingState.swift */; };
+		8E89273D2AC390C000C9C516 /* IPAddr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E89273C2AC390C000C9C516 /* IPAddr.swift */; };
+		8E93D6B529F42E2C008437C3 /* AppEnvStartupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93D6B429F42E2C008437C3 /* AppEnvStartupService.swift */; };
+		8E93D6B729F42EA2008437C3 /* FileSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93D6B629F42EA2008437C3 /* FileSetting.swift */; };
+		8E9844342884ECD400F0CFFA /* seisanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9844332884ECD400F0CFFA /* seisanApp.swift */; };
+		8E9844382884ECD600F0CFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9844372884ECD600F0CFFA /* Assets.xcassets */; };
+		8E98443B2884ECD600F0CFFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E98443A2884ECD600F0CFFA /* Preview Assets.xcassets */; };
+		8E9844452884ECD600F0CFFA /* seisanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9844442884ECD600F0CFFA /* seisanTests.swift */; };
+		8E98444F2884ECD600F0CFFA /* seisanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98444E2884ECD600F0CFFA /* seisanUITests.swift */; };
+		8E9844512884ECD600F0CFFA /* seisanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9844502884ECD600F0CFFA /* seisanUITestsLaunchTests.swift */; };
+		8E98445E2884FFCF00F0CFFA /* KesaiSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E98445D2884FFCF00F0CFFA /* KesaiSelectView.swift */; };
+		8E9844612885157500F0CFFA /* MoneyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9844602885157500F0CFFA /* MoneyFormat.swift */; };
+		8EA10F67288585F000041BCE /* CashKesaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA10F66288585F000041BCE /* CashKesaiView.swift */; };
+		8EA448EA28CF8BED00F8FC17 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA448E928CF8BED00F8FC17 /* Customer.swift */; };
+		8EA448EC28CF8C1600F8FC17 /* ReceiptBarcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA448EB28CF8C1600F8FC17 /* ReceiptBarcode.swift */; };
+		8EA448EE28CF8C6E00F8FC17 /* BillingAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA448ED28CF8C6E00F8FC17 /* BillingAmount.swift */; };
+		8EA448F028CF8C8A00F8FC17 /* ModelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA448EF28CF8C8A00F8FC17 /* ModelError.swift */; };
+		8EA5A0E428B8CB610018A45B /* CashTransactionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5A0E328B8CB610018A45B /* CashTransactionProtocol.swift */; };
+		8EB6ECBC29895041001C4538 /* KesaiSelectUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECBB29895041001C4538 /* KesaiSelectUseCase.swift */; };
+		8EB6ECBE29895934001C4538 /* CashTransactionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECBD29895934001C4538 /* CashTransactionError.swift */; };
+		8EB6ECC12989597D001C4538 /* CashTransctionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECC02989597D001C4538 /* CashTransctionState.swift */; };
+		8EB6ECC4298B1B86001C4538 /* LogSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECC3298B1B86001C4538 /* LogSettingState.swift */; };
+		8EB6ECC6298B1C9C001C4538 /* FileLogSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECC5298B1C9C001C4538 /* FileLogSetting.swift */; };
+		8EB6ECCA298C7D92001C4538 /* SwiftLoggerLevelExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECC9298C7D92001C4538 /* SwiftLoggerLevelExtention.swift */; };
+		8EB6ECD2298CCB42001C4538 /* AnyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECD1298CCB42001C4538 /* AnyLogger.swift */; };
+		8EB6ECD4298CD6A7001C4538 /* AnyLoggerOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECD3298CD6A6001C4538 /* AnyLoggerOutputProtocol.swift */; };
+		8EB6ECD6298CD6CA001C4538 /* AnyLoggerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECD5298CD6CA001C4538 /* AnyLoggerSetting.swift */; };
+		8EB6ECD8298D5211001C4538 /* STORESLogoutUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB6ECD7298D5211001C4538 /* STORESLogoutUseCase.swift */; };
+		8EB7374F28883B2D00622682 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7374E28883B2D00622682 /* SettingView.swift */; };
+		8EBB2C8B29CFB7AE00D65A62 /* TemporaryTransactionID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C8A29CFB7AE00D65A62 /* TemporaryTransactionID.swift */; };
+		8EBB2C8E29CFC74100D65A62 /* TSISmaregiMedicalSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C8D29CFC74100D65A62 /* TSISmaregiMedicalSettingState.swift */; };
+		8EBB2C9029CFE11E00D65A62 /* TSISmaregiMedicalCommTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C8F29CFE11E00D65A62 /* TSISmaregiMedicalCommTestUseCase.swift */; };
+		8EBB2C9229D070F100D65A62 /* AppSettingStateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C9129D070F100D65A62 /* AppSettingStateService.swift */; };
+		8EBB2C9429D09A0100D65A62 /* AppSettingGetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C9329D09A0100D65A62 /* AppSettingGetService.swift */; };
+		8EBB2C9629D0A93300D65A62 /* LoggerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C9529D0A93300D65A62 /* LoggerManger.swift */; };
+		8EBB2C9A29D1123600D65A62 /* EPosPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBB2C9929D1123600D65A62 /* EPosPrinter.swift */; };
+		8EBBBA722A00A8EB0007D34B /* InfraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBBA712A00A8EB0007D34B /* InfraManager.swift */; };
+		8EBBBA742A00AD2C0007D34B /* ReceiptPrinterSettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBBA732A00AD2C0007D34B /* ReceiptPrinterSettingState.swift */; };
+		8EBBBA772A00EDD40007D34B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBBA762A00EDD40007D34B /* Queue.swift */; };
+		8EBBBA792A00FE100007D34B /* ReceiptPrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBBA782A00FE100007D34B /* ReceiptPrintService.swift */; };
+		8EBBBA7B2A0106AA0007D34B /* ReceiptPrintProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBBA7A2A0106AA0007D34B /* ReceiptPrintProtocol.swift */; };
+		8EBBBA7D2A01DD7C0007D34B /* ReceiptPrintTestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBBBA7C2A01DD7C0007D34B /* ReceiptPrintTestUseCase.swift */; };
+		8EC1542129E2B1AC00BD0FD1 /* CreditKesaiMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1542029E2B1AC00BD0FD1 /* CreditKesaiMockView.swift */; };
+		8ECB179029C881E200B0F955 /* PatientCardBilling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECB178F29C881E200B0F955 /* PatientCardBilling.swift */; };
+		8ED8FACD2923C46B006D05A1 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8FACC2923C46B006D05A1 /* RoutingView.swift */; };
+		8ED8FAD0293B7844006D05A1 /* SmaregiPlatformRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8FACF293B7844006D05A1 /* SmaregiPlatformRepository.swift */; };
+		8ED8FAD62944D95A006D05A1 /* ReceiptSeisanFinalizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8FAD52944D95A006D05A1 /* ReceiptSeisanFinalizeView.swift */; };
+		8ED8FAD82944D97E006D05A1 /* ReceiptSeisanFinalizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8FAD72944D97E006D05A1 /* ReceiptSeisanFinalizeViewModel.swift */; };
+		8ED8FADC294E9F86006D05A1 /* Groly300AutoCashierAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8FADB294E9F86006D05A1 /* Groly300AutoCashierAdapter.swift */; };
+		8ED8FADE294F495C006D05A1 /* AsyncTCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8FADD294F495C006D05A1 /* AsyncTCPClient.swift */; };
+		8EE1060828BFAB92001F90A9 /* CashKesaiRefundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1060728BFAB92001F90A9 /* CashKesaiRefundView.swift */; };
+		8EE1061028C43168001F90A9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1060F28C43168001F90A9 /* ActivityIndicator.swift */; };
+		8EE1061428C78DB9001F90A9 /* seisanAppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1061328C78DB9001F90A9 /* seisanAppColor.swift */; };
+		8EEAFF1C29F4AFC0003E03D2 /* RoutingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAFF1B29F4AFC0003E03D2 /* RoutingViewModel.swift */; };
+		8EEAFF2029F8039E003E03D2 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEAFF1F29F8039E003E03D2 /* ExternalAccessory.framework */; };
+		8EEAFF2229F803AD003E03D2 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEAFF2129F803AD003E03D2 /* CoreBluetooth.framework */; };
+		8EEAFF2829F8052E003E03D2 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEAFF2729F8052E003E03D2 /* libxml2.2.tbd */; };
+		8EEAFF2A29F805E3003E03D2 /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEAFF2929F805E3003E03D2 /* libepos2.xcframework */; };
+		8EEAFF2C29F805F3003E03D2 /* libeposeasyselect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEAFF2B29F805F3003E03D2 /* libeposeasyselect.xcframework */; };
+		8EEB3D3F2A41DB8600C3D3E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEB3D3E2A41DB8600C3D3E2 /* AVFoundation.framework */; };
+		8EF2378428AD1AB400ED782F /* CashKesaiUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2378328AD1AB400ED782F /* CashKesaiUseCase.swift */; };
+		8EF2378828AD2F6D00ED782F /* CashKesaiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2378728AD2F6C00ED782F /* CashKesaiState.swift */; };
+		8EF2379228AE8BE800ED782F /* GrolyR08AutoCashierAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2379128AE8BE800ED782F /* GrolyR08AutoCashierAdapter.swift */; };
+		8EF2379428AF069700ED782F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2379328AF069700ED782F /* AppState.swift */; };
+		8EF2379A28B06BEA00ED782F /* KesaiUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2379928B06BEA00ED782F /* KesaiUseCaseProtocol.swift */; };
+		8EF2379C28B07BE300ED782F /* ScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF2379B28B07BE300ED782F /* ScreenRouter.swift */; };
+		8EF5D1952A472884002FAFD8 /* TextPrintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5D1942A472884002FAFD8 /* TextPrintData.swift */; };
+		8EF631B228B27F730043E3D1 /* CashKesaiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF631B128B27F730043E3D1 /* CashKesaiViewModel.swift */; };
+		8EF631B428B3AD250043E3D1 /* StanbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF631B328B3AD250043E3D1 /* StanbyViewModel.swift */; };
+		8EF631B628B3AF300043E3D1 /* KesaiSelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF631B528B3AF300043E3D1 /* KesaiSelectViewModel.swift */; };
+		8EF631B828B4F5B80043E3D1 /* SeisanCompleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF631B728B4F5B80043E3D1 /* SeisanCompleteViewModel.swift */; };
+		8EF9B43C2986C18300ACD29C /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 8EF9B43B2986C18300ACD29C /* Logging */; };
+		8EF9B43F2986C53C00ACD29C /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9B43E2986C53C00ACD29C /* FileLogger.swift */; };
+		8EF9B4412987F58300ACD29C /* StdoutLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF9B4402987F58300ACD29C /* StdoutLogger.swift */; };
+		8EFFB67B29B61C9000D00551 /* StanbyPatientCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB67A29B61C9000D00551 /* StanbyPatientCardView.swift */; };
+		8EFFB67D29B61EEB00D00551 /* StanbyPatientCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB67C29B61EEB00D00551 /* StanbyPatientCardViewModel.swift */; };
+		8EFFB67F29B6234B00D00551 /* PatientCardSeisanUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB67E29B6234B00D00551 /* PatientCardSeisanUseCase.swift */; };
+		8EFFB68129B625E600D00551 /* PatientCardBillingRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB68029B625E600D00551 /* PatientCardBillingRepositoryProtocol.swift */; };
+		8EFFB68329BB6B0000D00551 /* Amount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB68229BB6B0000D00551 /* Amount.swift */; };
+		8EFFB68529BB756300D00551 /* CreditKesaiUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFB68429BB756300D00551 /* CreditKesaiUseCase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E9844412884ECD600F0CFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9844282884ECD400F0CFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E98442F2884ECD400F0CFFA;
+			remoteInfo = seisan;
+		};
+		8E98444B2884ECD600F0CFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9844282884ECD400F0CFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E98442F2884ECD400F0CFFA;
+			remoteInfo = seisan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E08183A2984057A0046B1AC /* CregitSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CregitSettingState.swift; sourceTree = "<group>"; };
+		8E08183D298410AC0046B1AC /* STORES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STORES.swift; sourceTree = "<group>"; };
+		8E08183F2985440D0046B1AC /* SettingCheckProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCheckProtocol.swift; sourceTree = "<group>"; };
+		8E081841298559120046B1AC /* SelectedAutoCashierState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedAutoCashierState.swift; sourceTree = "<group>"; };
+		8E08184329855EB40046B1AC /* ReceiptSeisanFinalizeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptSeisanFinalizeService.swift; sourceTree = "<group>"; };
+		8E08184529855F9B0046B1AC /* TransactionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResult.swift; sourceTree = "<group>"; };
+		8E0818482985780F0046B1AC /* GrolyR08CommTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrolyR08CommTestUseCase.swift; sourceTree = "<group>"; };
+		8E08184A2985784D0046B1AC /* Groly300CommTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groly300CommTestUseCase.swift; sourceTree = "<group>"; };
+		8E08184C298578850046B1AC /* STORESLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STORESLoginUseCase.swift; sourceTree = "<group>"; };
+		8E08184E298578BA0046B1AC /* SmaregiCommTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaregiCommTestUseCase.swift; sourceTree = "<group>"; };
+		8E0818502986136C0046B1AC /* ViewSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSetting.swift; sourceTree = "<group>"; };
+		8E0818522986143E0046B1AC /* ViewSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSettingState.swift; sourceTree = "<group>"; };
+		8E0818542986AE4A0046B1AC /* AppSettingRepositoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingRepositoryFactory.swift; sourceTree = "<group>"; };
+		8E15A3DE2A5947D7003AC6FE /* BIZUDGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BIZUDGothic-Regular.ttf"; sourceTree = "<group>"; };
+		8E15A3DF2A5947D8003AC6FE /* BIZUDGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BIZUDGothic-Bold.ttf"; sourceTree = "<group>"; };
+		8E15A3E02A5947D8003AC6FE /* BIZUDPGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BIZUDPGothic-Regular.ttf"; sourceTree = "<group>"; };
+		8E15A3E12A5947D8003AC6FE /* BIZUDPGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BIZUDPGothic-Bold.ttf"; sourceTree = "<group>"; };
+		8E15A3E62A597525003AC6FE /* seisanAppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seisanAppFont.swift; sourceTree = "<group>"; };
+		8E15A3E92A597591003AC6FE /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		8E15A3EB2A5979BC003AC6FE /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
+		8E1F7659289994C900C4FEAB /* ReceiptBilling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptBilling.swift; sourceTree = "<group>"; };
+		8E24950F2A79406000D1D192 /* PatientSeisanPrepareProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSeisanPrepareProtocol.swift; sourceTree = "<group>"; };
+		8E2495112A7942A400D1D192 /* MIUProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIUProgram.swift; sourceTree = "<group>"; };
+		8E2495132A794C9200D1D192 /* PatientSeisanPrepareService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSeisanPrepareService.swift; sourceTree = "<group>"; };
+		8E2495262A79500300D1D192 /* MIUProgramStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIUProgramStub.swift; sourceTree = "<group>"; };
+		8E2495282A7A85C400D1D192 /* MIUProgramSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIUProgramSettingState.swift; sourceTree = "<group>"; };
+		8E24952A2A7A8EF700D1D192 /* MIUProgramTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIUProgramTestUseCase.swift; sourceTree = "<group>"; };
+		8E2C3F5329C5266E008A96C6 /* TSISmaregiMedicalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSISmaregiMedicalRepository.swift; sourceTree = "<group>"; };
+		8E2C3F5729C52B0A008A96C6 /* TemporaryTransacitonAddItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryTransacitonAddItem.swift; sourceTree = "<group>"; };
+		8E2C3F5B29C52C5B008A96C6 /* ORCARepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORCARepository.swift; sourceTree = "<group>"; };
+		8E2C3F5F29C52F24008A96C6 /* ORCARepoRepositorySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORCARepoRepositorySetting.swift; sourceTree = "<group>"; };
+		8E2C3F6329C52F7A008A96C6 /* TSISmaregiForMedicalRepositorySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSISmaregiForMedicalRepositorySetting.swift; sourceTree = "<group>"; };
+		8E2C3F6529C53615008A96C6 /* TemporaryTransacitonRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryTransacitonRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8E2C3F6729C53732008A96C6 /* TemporaryTransacitonAddItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryTransacitonAddItemProtocol.swift; sourceTree = "<group>"; };
+		8E374E21295DC9D700A676D3 /* UInt8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt8.swift; sourceTree = "<group>"; };
+		8E374E23295DC9F300A676D3 /* UInt16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt16.swift; sourceTree = "<group>"; };
+		8E374E25295DCA0900A676D3 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		8E374E28295F144500A676D3 /* Parity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parity.swift; sourceTree = "<group>"; };
+		8E425E1D29D71DFC00F95E5B /* ORCARepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORCARepositoryTests.swift; sourceTree = "<group>"; };
+		8E425E2429D7963A00F95E5B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8E51B0FB28D607FE008565CD /* CreditKesaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditKesaiView.swift; sourceTree = "<group>"; };
+		8E51B0FD28D6A5F3008565CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5285EA29E441A20097D68E /* ORCASettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORCASettingState.swift; sourceTree = "<group>"; };
+		8E5285EC29E450FB0097D68E /* ORCACommTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ORCACommTestUseCase.swift; sourceTree = "<group>"; };
+		8E5583BE2AB8221A0056AC4B /* PatientNoBarcodeModifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientNoBarcodeModifTests.swift; sourceTree = "<group>"; };
+		8E60344E2978290700BE7D52 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		8E603451297834BD00BE7D52 /* AppSettingRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8E603453297834EE00BE7D52 /* UserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepository.swift; sourceTree = "<group>"; };
+		8E6034572979F9B900BE7D52 /* SettingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingError.swift; sourceTree = "<group>"; };
+		8E6034592979FBB900BE7D52 /* Groly300AutoCashierAdapterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groly300AutoCashierAdapterSetting.swift; sourceTree = "<group>"; };
+		8E60345B2979FC0500BE7D52 /* GrolyR08AutoCashierAdapterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrolyR08AutoCashierAdapterSetting.swift; sourceTree = "<group>"; };
+		8E60345F297EC23A00BE7D52 /* SettingValueAttr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingValueAttr.swift; sourceTree = "<group>"; };
+		8E603463297FF4E500BE7D52 /* TransactionResultRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionResultRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8E603465297FFC0600BE7D52 /* SmaregiPlatformRepositorySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaregiPlatformRepositorySetting.swift; sourceTree = "<group>"; };
+		8E6034672980A35F00BE7D52 /* AppSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetting.swift; sourceTree = "<group>"; };
+		8E6034692980A52100BE7D52 /* AppSettingAutoCashierType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingAutoCashierType.swift; sourceTree = "<group>"; };
+		8E60346B298165C600BE7D52 /* GrolyR08AutoCashierAdapterSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrolyR08AutoCashierAdapterSettingState.swift; sourceTree = "<group>"; };
+		8E60346D298165EE00BE7D52 /* Groly300AutoCashierAdapterSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groly300AutoCashierAdapterSettingState.swift; sourceTree = "<group>"; };
+		8E60346F2981660400BE7D52 /* SmaregiPlatformSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaregiPlatformSettingState.swift; sourceTree = "<group>"; };
+		8E603473298168C500BE7D52 /* AppSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingState.swift; sourceTree = "<group>"; };
+		8E603CF329FDE4AF00C16F80 /* EPosPrinterSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPosPrinterSetting.swift; sourceTree = "<group>"; };
+		8E621CDB29C88E61001E2504 /* BillingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingProtocol.swift; sourceTree = "<group>"; };
+		8E621CDD29C89063001E2504 /* BillingLocalID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingLocalID.swift; sourceTree = "<group>"; };
+		8E621CDF29C892A8001E2504 /* PatientBarcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientBarcode.swift; sourceTree = "<group>"; };
+		8E621CE129C8A513001E2504 /* InvoiceNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceNo.swift; sourceTree = "<group>"; };
+		8E621CE329C8A568001E2504 /* InOutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InOutType.swift; sourceTree = "<group>"; };
+		8E621CE529C8A817001E2504 /* TemporaryTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryTransaction.swift; sourceTree = "<group>"; };
+		8E621CE729C95C96001E2504 /* KesaiMethodType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesaiMethodType.swift; sourceTree = "<group>"; };
+		8E621CE929C9D001001E2504 /* ShunoRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShunoRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8E621CEB29C9EA26001E2504 /* Shuno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuno.swift; sourceTree = "<group>"; };
+		8E621CED29C9F235001E2504 /* PatientCardSeisanFinalizeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardSeisanFinalizeService.swift; sourceTree = "<group>"; };
+		8E68FD312A0D9F03003FAC7A /* BillingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingDetailView.swift; sourceTree = "<group>"; };
+		8E6A118B2A9A291400D064E0 /* TempTransactionAddItemGetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempTransactionAddItemGetService.swift; sourceTree = "<group>"; };
+		8E6A118D2A9A38BA00D064E0 /* TempTransactionAddItemPrintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempTransactionAddItemPrintService.swift; sourceTree = "<group>"; };
+		8E70F33C2902D13D00567AF1 /* CreditKesaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditKesaiViewModel.swift; sourceTree = "<group>"; };
+		8E724C912A320669003D5B6D /* PatientCardSeisanSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardSeisanSetting.swift; sourceTree = "<group>"; };
+		8E74B60C2A06025B00E6F732 /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
+		8E74B60E2A06388E00E6F732 /* KesaiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesaiResult.swift; sourceTree = "<group>"; };
+		8E74B6102A068B4500E6F732 /* StubAutoCashierAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubAutoCashierAdapter.swift; sourceTree = "<group>"; };
+		8E776CA52A055BEE001ECF00 /* TransactionDetailID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailID.swift; sourceTree = "<group>"; };
+		8E7C64202A4DBE51008B26A1 /* AnnounceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnounceManager.swift; sourceTree = "<group>"; };
+		8E7E60ED28F3BA6A008E40FA /* StanbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanbyView.swift; sourceTree = "<group>"; };
+		8E7E6E4929B0E30E006AB2BD /* CanPayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPayout.swift; sourceTree = "<group>"; };
+		8E7E6E4D29B16512006AB2BD /* CanPayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanPayoutTests.swift; sourceTree = "<group>"; };
+		8E80126529BF6E02000A6499 /* SeisanType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeisanType.swift; sourceTree = "<group>"; };
+		8E80126729C0A35A000A6499 /* SelectedBarcodeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedBarcodeState.swift; sourceTree = "<group>"; };
+		8E80126929C0A396000A6499 /* AppSettingBarcodeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingBarcodeType.swift; sourceTree = "<group>"; };
+		8E80126B29C0B501000A6499 /* PatientCardSeisanFinalizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardSeisanFinalizeView.swift; sourceTree = "<group>"; };
+		8E80126D29C0B504000A6499 /* PatientCardSeisanFinalizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardSeisanFinalizeViewModel.swift; sourceTree = "<group>"; };
+		8E802E2828A881BB00D112D2 /* SeisanCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeisanCompleteView.swift; sourceTree = "<group>"; };
+		8E802E3B28A8C2F500D112D2 /* ReceiptSeisanUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptSeisanUseCase.swift; sourceTree = "<group>"; };
+		8E8188202A0A961300404C63 /* PatientCardSeisanSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardSeisanSettingState.swift; sourceTree = "<group>"; };
+		8E8805952A9AB18D00ADFF2B /* CreditReceiptPrintService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditReceiptPrintService.swift; sourceTree = "<group>"; };
+		8E88D2FE2AAA949500C402AE /* ContinuousTextPrintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousTextPrintData.swift; sourceTree = "<group>"; };
+		8E89271E2ABB2FC500C9C516 /* HTTPServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
+		8E8927262ABC63C300C9C516 /* CustomerDisplayAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDisplayAPIController.swift; sourceTree = "<group>"; };
+		8E89272E2ABC7FC200C9C516 /* SeisanInfoConfirmUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeisanInfoConfirmUseCase.swift; sourceTree = "<group>"; };
+		8E8927322AC0767400C9C516 /* CustomerDisplaySettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDisplaySettingState.swift; sourceTree = "<group>"; };
+		8E8927352AC07AB800C9C516 /* CustomerDisplaySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDisplaySetting.swift; sourceTree = "<group>"; };
+		8E8927392AC1B33100C9C516 /* HTTPServerSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServerSettingState.swift; sourceTree = "<group>"; };
+		8E89273C2AC390C000C9C516 /* IPAddr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAddr.swift; sourceTree = "<group>"; };
+		8E93D6B429F42E2C008437C3 /* AppEnvStartupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvStartupService.swift; sourceTree = "<group>"; };
+		8E93D6B629F42EA2008437C3 /* FileSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSetting.swift; sourceTree = "<group>"; };
+		8E9844302884ECD400F0CFFA /* seisan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seisan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9844332884ECD400F0CFFA /* seisanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seisanApp.swift; sourceTree = "<group>"; };
+		8E9844372884ECD600F0CFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E98443A2884ECD600F0CFFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E9844402884ECD600F0CFFA /* seisanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seisanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9844442884ECD600F0CFFA /* seisanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seisanTests.swift; sourceTree = "<group>"; };
+		8E98444A2884ECD600F0CFFA /* seisanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seisanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E98444E2884ECD600F0CFFA /* seisanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seisanUITests.swift; sourceTree = "<group>"; };
+		8E9844502884ECD600F0CFFA /* seisanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seisanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E98445D2884FFCF00F0CFFA /* KesaiSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesaiSelectView.swift; sourceTree = "<group>"; };
+		8E9844602885157500F0CFFA /* MoneyFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormat.swift; sourceTree = "<group>"; };
+		8EA10F66288585F000041BCE /* CashKesaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashKesaiView.swift; sourceTree = "<group>"; };
+		8EA448E928CF8BED00F8FC17 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		8EA448EB28CF8C1600F8FC17 /* ReceiptBarcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptBarcode.swift; sourceTree = "<group>"; };
+		8EA448ED28CF8C6E00F8FC17 /* BillingAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillingAmount.swift; sourceTree = "<group>"; };
+		8EA448EF28CF8C8A00F8FC17 /* ModelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelError.swift; sourceTree = "<group>"; };
+		8EA5A0E328B8CB610018A45B /* CashTransactionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTransactionProtocol.swift; sourceTree = "<group>"; };
+		8EB6ECBB29895041001C4538 /* KesaiSelectUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesaiSelectUseCase.swift; sourceTree = "<group>"; };
+		8EB6ECBD29895934001C4538 /* CashTransactionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTransactionError.swift; sourceTree = "<group>"; };
+		8EB6ECC02989597D001C4538 /* CashTransctionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTransctionState.swift; sourceTree = "<group>"; };
+		8EB6ECC3298B1B86001C4538 /* LogSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSettingState.swift; sourceTree = "<group>"; };
+		8EB6ECC5298B1C9C001C4538 /* FileLogSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogSetting.swift; sourceTree = "<group>"; };
+		8EB6ECC9298C7D92001C4538 /* SwiftLoggerLevelExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoggerLevelExtention.swift; sourceTree = "<group>"; };
+		8EB6ECD1298CCB42001C4538 /* AnyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLogger.swift; sourceTree = "<group>"; };
+		8EB6ECD3298CD6A6001C4538 /* AnyLoggerOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLoggerOutputProtocol.swift; sourceTree = "<group>"; };
+		8EB6ECD5298CD6CA001C4538 /* AnyLoggerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLoggerSetting.swift; sourceTree = "<group>"; };
+		8EB6ECD7298D5211001C4538 /* STORESLogoutUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STORESLogoutUseCase.swift; sourceTree = "<group>"; };
+		8EB7374E28883B2D00622682 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		8EBB2C8A29CFB7AE00D65A62 /* TemporaryTransactionID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryTransactionID.swift; sourceTree = "<group>"; };
+		8EBB2C8D29CFC74100D65A62 /* TSISmaregiMedicalSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSISmaregiMedicalSettingState.swift; sourceTree = "<group>"; };
+		8EBB2C8F29CFE11E00D65A62 /* TSISmaregiMedicalCommTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSISmaregiMedicalCommTestUseCase.swift; sourceTree = "<group>"; };
+		8EBB2C9129D070F100D65A62 /* AppSettingStateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingStateService.swift; sourceTree = "<group>"; };
+		8EBB2C9329D09A0100D65A62 /* AppSettingGetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingGetService.swift; sourceTree = "<group>"; };
+		8EBB2C9529D0A93300D65A62 /* LoggerManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerManger.swift; sourceTree = "<group>"; };
+		8EBB2C9929D1123600D65A62 /* EPosPrinter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPosPrinter.swift; sourceTree = "<group>"; };
+		8EBBBA712A00A8EB0007D34B /* InfraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfraManager.swift; sourceTree = "<group>"; };
+		8EBBBA732A00AD2C0007D34B /* ReceiptPrinterSettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptPrinterSettingState.swift; sourceTree = "<group>"; };
+		8EBBBA762A00EDD40007D34B /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		8EBBBA782A00FE100007D34B /* ReceiptPrintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptPrintService.swift; sourceTree = "<group>"; };
+		8EBBBA7A2A0106AA0007D34B /* ReceiptPrintProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptPrintProtocol.swift; sourceTree = "<group>"; };
+		8EBBBA7C2A01DD7C0007D34B /* ReceiptPrintTestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptPrintTestUseCase.swift; sourceTree = "<group>"; };
+		8EC1542029E2B1AC00BD0FD1 /* CreditKesaiMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditKesaiMockView.swift; sourceTree = "<group>"; };
+		8ECB178F29C881E200B0F955 /* PatientCardBilling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardBilling.swift; sourceTree = "<group>"; };
+		8ED8FACC2923C46B006D05A1 /* RoutingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		8ED8FACF293B7844006D05A1 /* SmaregiPlatformRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmaregiPlatformRepository.swift; sourceTree = "<group>"; };
+		8ED8FAD52944D95A006D05A1 /* ReceiptSeisanFinalizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptSeisanFinalizeView.swift; sourceTree = "<group>"; };
+		8ED8FAD72944D97E006D05A1 /* ReceiptSeisanFinalizeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptSeisanFinalizeViewModel.swift; sourceTree = "<group>"; };
+		8ED8FADB294E9F86006D05A1 /* Groly300AutoCashierAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groly300AutoCashierAdapter.swift; sourceTree = "<group>"; };
+		8ED8FADD294F495C006D05A1 /* AsyncTCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTCPClient.swift; sourceTree = "<group>"; };
+		8EE1060728BFAB92001F90A9 /* CashKesaiRefundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashKesaiRefundView.swift; sourceTree = "<group>"; };
+		8EE1060F28C43168001F90A9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		8EE1061328C78DB9001F90A9 /* seisanAppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seisanAppColor.swift; sourceTree = "<group>"; };
+		8EEAFF1B29F4AFC0003E03D2 /* RoutingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingViewModel.swift; sourceTree = "<group>"; };
+		8EEAFF1F29F8039E003E03D2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		8EEAFF2129F803AD003E03D2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8EEAFF2329F803C6003E03D2 /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = seisan/lib/libepos2.xcframework; sourceTree = "<group>"; };
+		8EEAFF2529F803DA003E03D2 /* libeposeasyselect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libeposeasyselect.xcframework; path = seisan/lib/libeposeasyselect.xcframework; sourceTree = "<group>"; };
+		8EEAFF2729F8052E003E03D2 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		8EEAFF2929F805E3003E03D2 /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = seisan/lib/ePOS_SDK_iOS/libepos2.xcframework; sourceTree = "<group>"; };
+		8EEAFF2B29F805F3003E03D2 /* libeposeasyselect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libeposeasyselect.xcframework; path = seisan/lib/ePOS_SDK_iOS/libeposeasyselect.xcframework; sourceTree = "<group>"; };
+		8EEAFF3929FAA835003E03D2 /* seisan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "seisan-Bridging-Header.h"; sourceTree = "<group>"; };
+		8EEB3D3E2A41DB8600C3D3E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8EF2378328AD1AB400ED782F /* CashKesaiUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashKesaiUseCase.swift; sourceTree = "<group>"; };
+		8EF2378728AD2F6C00ED782F /* CashKesaiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashKesaiState.swift; sourceTree = "<group>"; };
+		8EF2379128AE8BE800ED782F /* GrolyR08AutoCashierAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrolyR08AutoCashierAdapter.swift; sourceTree = "<group>"; };
+		8EF2379328AF069700ED782F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8EF2379928B06BEA00ED782F /* KesaiUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesaiUseCaseProtocol.swift; sourceTree = "<group>"; };
+		8EF2379B28B07BE300ED782F /* ScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRouter.swift; sourceTree = "<group>"; };
+		8EF5D1942A472884002FAFD8 /* TextPrintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrintData.swift; sourceTree = "<group>"; };
+		8EF631B128B27F730043E3D1 /* CashKesaiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashKesaiViewModel.swift; sourceTree = "<group>"; };
+		8EF631B328B3AD250043E3D1 /* StanbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanbyViewModel.swift; sourceTree = "<group>"; };
+		8EF631B528B3AF300043E3D1 /* KesaiSelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KesaiSelectViewModel.swift; sourceTree = "<group>"; };
+		8EF631B728B4F5B80043E3D1 /* SeisanCompleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeisanCompleteViewModel.swift; sourceTree = "<group>"; };
+		8EF9B43E2986C53C00ACD29C /* FileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
+		8EF9B4402987F58300ACD29C /* StdoutLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdoutLogger.swift; sourceTree = "<group>"; };
+		8EFFB67A29B61C9000D00551 /* StanbyPatientCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanbyPatientCardView.swift; sourceTree = "<group>"; };
+		8EFFB67C29B61EEB00D00551 /* StanbyPatientCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanbyPatientCardViewModel.swift; sourceTree = "<group>"; };
+		8EFFB67E29B6234B00D00551 /* PatientCardSeisanUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardSeisanUseCase.swift; sourceTree = "<group>"; };
+		8EFFB68029B625E600D00551 /* PatientCardBillingRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardBillingRepositoryProtocol.swift; sourceTree = "<group>"; };
+		8EFFB68229BB6B0000D00551 /* Amount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amount.swift; sourceTree = "<group>"; };
+		8EFFB68429BB756300D00551 /* CreditKesaiUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditKesaiUseCase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E98442D2884ECD400F0CFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEAFF2C29F805F3003E03D2 /* libeposeasyselect.xcframework in Frameworks */,
+				8EEAFF2A29F805E3003E03D2 /* libepos2.xcframework in Frameworks */,
+				8EEB3D3F2A41DB8600C3D3E2 /* AVFoundation.framework in Frameworks */,
+				8E89272D2ABC667300C9C516 /* NIOHTTP1 in Frameworks */,
+				8EEAFF2829F8052E003E03D2 /* libxml2.2.tbd in Frameworks */,
+				8EEAFF2229F803AD003E03D2 /* CoreBluetooth.framework in Frameworks */,
+				8EEAFF2029F8039E003E03D2 /* ExternalAccessory.framework in Frameworks */,
+				8E8927242ABC620800C9C516 /* NIOTransportServices in Frameworks */,
+				8EF9B43C2986C18300ACD29C /* Logging in Frameworks */,
+				8E31529928D5377800089DD3 /* TCMPayment in Frameworks */,
+				8E31F5A429D85C5200189BCA /* XMLCoder in Frameworks */,
+				8E31529728D5377800089DD3 /* STORESPaymentsSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E98443D2884ECD600F0CFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9844472884ECD600F0CFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E081833298334960046B1AC /* presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				8E8927252ABC63A400C9C516 /* api */,
+				8E802E2728A8817E00D112D2 /* view */,
+				8E8927342AC07A6600C9C516 /* customerDisplay */,
+				8EE1060928C35789001F90A9 /* share */,
+				8E15A3E82A59757D003AC6FE /* extension */,
+				8EC1541F29E2B16700BD0FD1 /* mockView */,
+			);
+			path = presentaion;
+			sourceTree = "<group>";
+		};
+		8E081834298334BF0046B1AC /* applicaiton */ = {
+			isa = PBXGroup;
+			children = (
+				8E802E2A28A8821400D112D2 /* useCase */,
+				8E80126F29C12D3E000A6499 /* service */,
+				8E362A0028BD708C0058B6D1 /* state */,
+				8EB6ECBF2989593F001C4538 /* error */,
+			);
+			path = applicaiton;
+			sourceTree = "<group>";
+		};
+		8E081835298334D90046B1AC /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				8E802E2D28A882D400D112D2 /* entity */,
+				8EB6ECC2298B1ACE001C4538 /* valueObject */,
+				8E08184729855FE10046B1AC /* repository */,
+				8E0818372983353E0046B1AC /* error */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		8E0818372983353E0046B1AC /* error */ = {
+			isa = PBXGroup;
+			children = (
+				8EA448EF28CF8C8A00F8FC17 /* ModelError.swift */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		8E081838298336040046B1AC /* share */ = {
+			isa = PBXGroup;
+			children = (
+				8E89273B2AC390B000C9C516 /* network */,
+				8E8927202ABB2FD900C9C516 /* http */,
+				8EBBBA752A00EDC90007D34B /* data */,
+				8E374E20295DC99600A676D3 /* extension */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		8E081839298337000046B1AC /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBBA702A00A8980007D34B /* manager */,
+				8E08183C2984107C0046B1AC /* service */,
+				8ED8FACE293B7774006D05A1 /* repository */,
+				8EF2378E28AE8B6E00ED782F /* gateway */,
+				8E7C641F2A4DBE2E008B26A1 /* announce */,
+				8E374E27295F143100A676D3 /* share */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		8E08183C2984107C0046B1AC /* service */ = {
+			isa = PBXGroup;
+			children = (
+				8E08183D298410AC0046B1AC /* STORES.swift */,
+				8E2495112A7942A400D1D192 /* MIUProgram.swift */,
+				8E2495262A79500300D1D192 /* MIUProgramStub.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		8E08184729855FE10046B1AC /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				8E603463297FF4E500BE7D52 /* TransactionResultRepositoryProtocol.swift */,
+				8EFFB68029B625E600D00551 /* PatientCardBillingRepositoryProtocol.swift */,
+				8E2C3F6529C53615008A96C6 /* TemporaryTransacitonRepositoryProtocol.swift */,
+				8E2C3F6729C53732008A96C6 /* TemporaryTransacitonAddItemProtocol.swift */,
+				8E621CE929C9D001001E2504 /* ShunoRepositoryProtocol.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		8E15A3DD2A5947AC003AC6FE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E15A3DF2A5947D8003AC6FE /* BIZUDGothic-Bold.ttf */,
+				8E15A3DE2A5947D7003AC6FE /* BIZUDGothic-Regular.ttf */,
+				8E15A3E12A5947D8003AC6FE /* BIZUDPGothic-Bold.ttf */,
+				8E15A3E02A5947D8003AC6FE /* BIZUDPGothic-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8E15A3E82A59757D003AC6FE /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E15A3E92A597591003AC6FE /* Shape.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		8E362A0028BD708C0058B6D1 /* state */ = {
+			isa = PBXGroup;
+			children = (
+				8EF2379328AF069700ED782F /* AppState.swift */,
+				8EF2378728AD2F6C00ED782F /* CashKesaiState.swift */,
+				8E08183F2985440D0046B1AC /* SettingCheckProtocol.swift */,
+				8EF2379B28B07BE300ED782F /* ScreenRouter.swift */,
+			);
+			path = state;
+			sourceTree = "<group>";
+		};
+		8E374E20295DC99600A676D3 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E374E21295DC9D700A676D3 /* UInt8.swift */,
+				8E374E23295DC9F300A676D3 /* UInt16.swift */,
+				8E374E25295DCA0900A676D3 /* Date.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		8E374E27295F143100A676D3 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				8E374E28295F144500A676D3 /* Parity.swift */,
+				8E60345F297EC23A00BE7D52 /* SettingValueAttr.swift */,
+				8E6034572979F9B900BE7D52 /* SettingError.swift */,
+				8E93D6B629F42EA2008437C3 /* FileSetting.swift */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		8E425E1C29D71DE100F95E5B /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				8E425E1D29D71DFC00F95E5B /* ORCARepositoryTests.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		8E5583BC2AB820E30056AC4B /* presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				8E5583BD2AB820E80056AC4B /* view */,
+			);
+			path = presentaion;
+			sourceTree = "<group>";
+		};
+		8E5583BD2AB820E80056AC4B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8E5583BE2AB8221A0056AC4B /* PatientNoBarcodeModifTests.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8E7C641F2A4DBE2E008B26A1 /* announce */ = {
+			isa = PBXGroup;
+			children = (
+				8E7C64202A4DBE51008B26A1 /* AnnounceManager.swift */,
+			);
+			path = announce;
+			sourceTree = "<group>";
+		};
+		8E7E6E4B29B164DF006AB2BD /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				8E425E1C29D71DE100F95E5B /* repository */,
+				8E7E6E4C29B164FC006AB2BD /* gateway */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		8E7E6E4C29B164FC006AB2BD /* gateway */ = {
+			isa = PBXGroup;
+			children = (
+				8E7E6E4D29B16512006AB2BD /* CanPayoutTests.swift */,
+			);
+			path = gateway;
+			sourceTree = "<group>";
+		};
+		8E80126F29C12D3E000A6499 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				8E93D6B429F42E2C008437C3 /* AppEnvStartupService.swift */,
+				8E2495132A794C9200D1D192 /* PatientSeisanPrepareService.swift */,
+				8E24950F2A79406000D1D192 /* PatientSeisanPrepareProtocol.swift */,
+				8E08184329855EB40046B1AC /* ReceiptSeisanFinalizeService.swift */,
+				8E621CED29C9F235001E2504 /* PatientCardSeisanFinalizeService.swift */,
+				8EBBBA782A00FE100007D34B /* ReceiptPrintService.swift */,
+				8EBBBA7A2A0106AA0007D34B /* ReceiptPrintProtocol.swift */,
+				8E6A118B2A9A291400D064E0 /* TempTransactionAddItemGetService.swift */,
+				8E6A118D2A9A38BA00D064E0 /* TempTransactionAddItemPrintService.swift */,
+				8E8805952A9AB18D00ADFF2B /* CreditReceiptPrintService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		8E802E2728A8817E00D112D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8FACC2923C46B006D05A1 /* RoutingView.swift */,
+				8EEAFF1B29F4AFC0003E03D2 /* RoutingViewModel.swift */,
+				8E7E60ED28F3BA6A008E40FA /* StanbyView.swift */,
+				8EF631B328B3AD250043E3D1 /* StanbyViewModel.swift */,
+				8EFFB67A29B61C9000D00551 /* StanbyPatientCardView.swift */,
+				8EFFB67C29B61EEB00D00551 /* StanbyPatientCardViewModel.swift */,
+				8E98445D2884FFCF00F0CFFA /* KesaiSelectView.swift */,
+				8EF631B528B3AF300043E3D1 /* KesaiSelectViewModel.swift */,
+				8EA10F66288585F000041BCE /* CashKesaiView.swift */,
+				8EF631B128B27F730043E3D1 /* CashKesaiViewModel.swift */,
+				8EE1060728BFAB92001F90A9 /* CashKesaiRefundView.swift */,
+				8E51B0FB28D607FE008565CD /* CreditKesaiView.swift */,
+				8E70F33C2902D13D00567AF1 /* CreditKesaiViewModel.swift */,
+				8ED8FAD52944D95A006D05A1 /* ReceiptSeisanFinalizeView.swift */,
+				8ED8FAD72944D97E006D05A1 /* ReceiptSeisanFinalizeViewModel.swift */,
+				8E80126B29C0B501000A6499 /* PatientCardSeisanFinalizeView.swift */,
+				8E80126D29C0B504000A6499 /* PatientCardSeisanFinalizeViewModel.swift */,
+				8E802E2828A881BB00D112D2 /* SeisanCompleteView.swift */,
+				8EF631B728B4F5B80043E3D1 /* SeisanCompleteViewModel.swift */,
+				8EB7374E28883B2D00622682 /* SettingView.swift */,
+				8E60344E2978290700BE7D52 /* SettingViewModel.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8E802E2A28A8821400D112D2 /* useCase */ = {
+			isa = PBXGroup;
+			children = (
+				8E802E3B28A8C2F500D112D2 /* ReceiptSeisanUseCase.swift */,
+				8EFFB67E29B6234B00D00551 /* PatientCardSeisanUseCase.swift */,
+				8EB6ECBB29895041001C4538 /* KesaiSelectUseCase.swift */,
+				8EF2379928B06BEA00ED782F /* KesaiUseCaseProtocol.swift */,
+				8EF2378328AD1AB400ED782F /* CashKesaiUseCase.swift */,
+				8EA5A0E328B8CB610018A45B /* CashTransactionProtocol.swift */,
+				8EB6ECC02989597D001C4538 /* CashTransctionState.swift */,
+				8EFFB68429BB756300D00551 /* CreditKesaiUseCase.swift */,
+				8E24952A2A7A8EF700D1D192 /* MIUProgramTestUseCase.swift */,
+				8E0818482985780F0046B1AC /* GrolyR08CommTestUseCase.swift */,
+				8E08184A2985784D0046B1AC /* Groly300CommTestUseCase.swift */,
+				8E08184C298578850046B1AC /* STORESLoginUseCase.swift */,
+				8EB6ECD7298D5211001C4538 /* STORESLogoutUseCase.swift */,
+				8E08184E298578BA0046B1AC /* SmaregiCommTestUseCase.swift */,
+				8EBB2C8F29CFE11E00D65A62 /* TSISmaregiMedicalCommTestUseCase.swift */,
+				8E5285EC29E450FB0097D68E /* ORCACommTestUseCase.swift */,
+				8EBBBA7C2A01DD7C0007D34B /* ReceiptPrintTestUseCase.swift */,
+				8E89272E2ABC7FC200C9C516 /* SeisanInfoConfirmUseCase.swift */,
+			);
+			path = useCase;
+			sourceTree = "<group>";
+		};
+		8E802E2D28A882D400D112D2 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				8E621CDB29C88E61001E2504 /* BillingProtocol.swift */,
+				8E1F7659289994C900C4FEAB /* ReceiptBilling.swift */,
+				8ECB178F29C881E200B0F955 /* PatientCardBilling.swift */,
+				8EA448E928CF8BED00F8FC17 /* Customer.swift */,
+				8E621CE529C8A817001E2504 /* TemporaryTransaction.swift */,
+				8E2C3F5729C52B0A008A96C6 /* TemporaryTransacitonAddItem.swift */,
+				8E08184529855F9B0046B1AC /* TransactionResult.swift */,
+				8E74B60C2A06025B00E6F732 /* TransactionDetail.swift */,
+				8E621CEB29C9EA26001E2504 /* Shuno.swift */,
+				8E74B60E2A06388E00E6F732 /* KesaiResult.swift */,
+				8EF5D1942A472884002FAFD8 /* TextPrintData.swift */,
+				8E88D2FE2AAA949500C402AE /* ContinuousTextPrintData.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		8E8927202ABB2FD900C9C516 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				8E89271E2ABB2FC500C9C516 /* HTTPServer.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		8E8927252ABC63A400C9C516 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				8E8927262ABC63C300C9C516 /* CustomerDisplayAPIController.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		8E8927342AC07A6600C9C516 /* customerDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				8E8927352AC07AB800C9C516 /* CustomerDisplaySetting.swift */,
+			);
+			path = customerDisplay;
+			sourceTree = "<group>";
+		};
+		8E89273B2AC390B000C9C516 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				8E89273C2AC390C000C9C516 /* IPAddr.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		8E9844272884ECD400F0CFFA = {
+			isa = PBXGroup;
+			children = (
+				8E9844322884ECD400F0CFFA /* seisan */,
+				8E9844432884ECD600F0CFFA /* seisanTests */,
+				8E98444D2884ECD600F0CFFA /* seisanUITests */,
+				8E9844312884ECD400F0CFFA /* Products */,
+				8EEAFF1E29F8039E003E03D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9844312884ECD400F0CFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9844302884ECD400F0CFFA /* seisan.app */,
+				8E9844402884ECD600F0CFFA /* seisanTests.xctest */,
+				8E98444A2884ECD600F0CFFA /* seisanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9844322884ECD400F0CFFA /* seisan */ = {
+			isa = PBXGroup;
+			children = (
+				8E51B0FD28D6A5F3008565CD /* Info.plist */,
+				8E9844332884ECD400F0CFFA /* seisanApp.swift */,
+				8EE1061328C78DB9001F90A9 /* seisanAppColor.swift */,
+				8E15A3E62A597525003AC6FE /* seisanAppFont.swift */,
+				8E9844372884ECD600F0CFFA /* Assets.xcassets */,
+				8E15A3DD2A5947AC003AC6FE /* fonts */,
+				8E9844392884ECD600F0CFFA /* Preview Content */,
+				8EF9B43D2986C52100ACD29C /* log */,
+				8E081833298334960046B1AC /* presentaion */,
+				8E081834298334BF0046B1AC /* applicaiton */,
+				8E081835298334D90046B1AC /* domain */,
+				8E081839298337000046B1AC /* infrastructure */,
+				8EBB2C8C29CFC63000D65A62 /* setting */,
+				8E081838298336040046B1AC /* share */,
+				8E425E2429D7963A00F95E5B /* Settings.bundle */,
+				8EEAFF3929FAA835003E03D2 /* seisan-Bridging-Header.h */,
+			);
+			path = seisan;
+			sourceTree = "<group>";
+		};
+		8E9844392884ECD600F0CFFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E98443A2884ECD600F0CFFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E9844432884ECD600F0CFFA /* seisanTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E5583BC2AB820E30056AC4B /* presentaion */,
+				8E7E6E4B29B164DF006AB2BD /* infrastructure */,
+				8E9844442884ECD600F0CFFA /* seisanTests.swift */,
+			);
+			path = seisanTests;
+			sourceTree = "<group>";
+		};
+		8E98444D2884ECD600F0CFFA /* seisanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E98444E2884ECD600F0CFFA /* seisanUITests.swift */,
+				8E9844502884ECD600F0CFFA /* seisanUITestsLaunchTests.swift */,
+			);
+			path = seisanUITests;
+			sourceTree = "<group>";
+		};
+		8EB6ECBF2989593F001C4538 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				8EB6ECBD29895934001C4538 /* CashTransactionError.swift */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		8EB6ECC2298B1ACE001C4538 /* valueObject */ = {
+			isa = PBXGroup;
+			children = (
+				8EA448EB28CF8C1600F8FC17 /* ReceiptBarcode.swift */,
+				8E621CDF29C892A8001E2504 /* PatientBarcode.swift */,
+				8E80126529BF6E02000A6499 /* SeisanType.swift */,
+				8E621CDD29C89063001E2504 /* BillingLocalID.swift */,
+				8EA448ED28CF8C6E00F8FC17 /* BillingAmount.swift */,
+				8EFFB68229BB6B0000D00551 /* Amount.swift */,
+				8E621CE729C95C96001E2504 /* KesaiMethodType.swift */,
+				8EBB2C8A29CFB7AE00D65A62 /* TemporaryTransactionID.swift */,
+				8E776CA52A055BEE001ECF00 /* TransactionDetailID.swift */,
+				8E621CE129C8A513001E2504 /* InvoiceNo.swift */,
+				8E621CE329C8A568001E2504 /* InOutType.swift */,
+			);
+			path = valueObject;
+			sourceTree = "<group>";
+		};
+		8EBB2C8C29CFC63000D65A62 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				8E6034672980A35F00BE7D52 /* AppSetting.swift */,
+				8EBB2C9329D09A0100D65A62 /* AppSettingGetService.swift */,
+				8E80126929C0A396000A6499 /* AppSettingBarcodeType.swift */,
+				8E6034692980A52100BE7D52 /* AppSettingAutoCashierType.swift */,
+				8E603451297834BD00BE7D52 /* AppSettingRepositoryProtocol.swift */,
+				8E724C912A320669003D5B6D /* PatientCardSeisanSetting.swift */,
+				8E0818502986136C0046B1AC /* ViewSetting.swift */,
+				8EBB2C9129D070F100D65A62 /* AppSettingStateService.swift */,
+				8E603473298168C500BE7D52 /* AppSettingState.swift */,
+				8E8188202A0A961300404C63 /* PatientCardSeisanSettingState.swift */,
+				8E2495282A7A85C400D1D192 /* MIUProgramSettingState.swift */,
+				8E80126729C0A35A000A6499 /* SelectedBarcodeState.swift */,
+				8E081841298559120046B1AC /* SelectedAutoCashierState.swift */,
+				8E60346B298165C600BE7D52 /* GrolyR08AutoCashierAdapterSettingState.swift */,
+				8E60346D298165EE00BE7D52 /* Groly300AutoCashierAdapterSettingState.swift */,
+				8E08183A2984057A0046B1AC /* CregitSettingState.swift */,
+				8E60346F2981660400BE7D52 /* SmaregiPlatformSettingState.swift */,
+				8EBB2C8D29CFC74100D65A62 /* TSISmaregiMedicalSettingState.swift */,
+				8EBBBA732A00AD2C0007D34B /* ReceiptPrinterSettingState.swift */,
+				8E5285EA29E441A20097D68E /* ORCASettingState.swift */,
+				8E0818522986143E0046B1AC /* ViewSettingState.swift */,
+				8E8927322AC0767400C9C516 /* CustomerDisplaySettingState.swift */,
+				8E8927392AC1B33100C9C516 /* HTTPServerSettingState.swift */,
+				8EB6ECC3298B1B86001C4538 /* LogSettingState.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		8EBBBA702A00A8980007D34B /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBBA712A00A8EB0007D34B /* InfraManager.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		8EBBBA752A00EDC90007D34B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8EBBBA762A00EDD40007D34B /* Queue.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		8EC1541F29E2B16700BD0FD1 /* mockView */ = {
+			isa = PBXGroup;
+			children = (
+				8EC1542029E2B1AC00BD0FD1 /* CreditKesaiMockView.swift */,
+			);
+			path = mockView;
+			sourceTree = "<group>";
+		};
+		8ED8FACE293B7774006D05A1 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8FACF293B7844006D05A1 /* SmaregiPlatformRepository.swift */,
+				8E603465297FFC0600BE7D52 /* SmaregiPlatformRepositorySetting.swift */,
+				8E0818542986AE4A0046B1AC /* AppSettingRepositoryFactory.swift */,
+				8E603453297834EE00BE7D52 /* UserDefaultsRepository.swift */,
+				8E2C3F5329C5266E008A96C6 /* TSISmaregiMedicalRepository.swift */,
+				8E2C3F6329C52F7A008A96C6 /* TSISmaregiForMedicalRepositorySetting.swift */,
+				8E2C3F5B29C52C5B008A96C6 /* ORCARepository.swift */,
+				8E2C3F5F29C52F24008A96C6 /* ORCARepoRepositorySetting.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		8EE1060928C35789001F90A9 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				8EE1060F28C43168001F90A9 /* ActivityIndicator.swift */,
+				8E9844602885157500F0CFFA /* MoneyFormat.swift */,
+				8E68FD312A0D9F03003FAC7A /* BillingDetailView.swift */,
+				8E15A3EB2A5979BC003AC6FE /* RoundView.swift */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		8EEAFF1E29F8039E003E03D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EEB3D3E2A41DB8600C3D3E2 /* AVFoundation.framework */,
+				8EEAFF2B29F805F3003E03D2 /* libeposeasyselect.xcframework */,
+				8EEAFF2929F805E3003E03D2 /* libepos2.xcframework */,
+				8EEAFF2729F8052E003E03D2 /* libxml2.2.tbd */,
+				8EEAFF2529F803DA003E03D2 /* libeposeasyselect.xcframework */,
+				8EEAFF2329F803C6003E03D2 /* libepos2.xcframework */,
+				8EEAFF2129F803AD003E03D2 /* CoreBluetooth.framework */,
+				8EEAFF1F29F8039E003E03D2 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EF2378E28AE8B6E00ED782F /* gateway */ = {
+			isa = PBXGroup;
+			children = (
+				8EF2379128AE8BE800ED782F /* GrolyR08AutoCashierAdapter.swift */,
+				8E60345B2979FC0500BE7D52 /* GrolyR08AutoCashierAdapterSetting.swift */,
+				8ED8FADB294E9F86006D05A1 /* Groly300AutoCashierAdapter.swift */,
+				8E6034592979FBB900BE7D52 /* Groly300AutoCashierAdapterSetting.swift */,
+				8E74B6102A068B4500E6F732 /* StubAutoCashierAdapter.swift */,
+				8ED8FADD294F495C006D05A1 /* AsyncTCPClient.swift */,
+				8E7E6E4929B0E30E006AB2BD /* CanPayout.swift */,
+				8EBB2C9929D1123600D65A62 /* EPosPrinter.swift */,
+				8E603CF329FDE4AF00C16F80 /* EPosPrinterSetting.swift */,
+			);
+			path = gateway;
+			sourceTree = "<group>";
+		};
+		8EF9B43D2986C52100ACD29C /* log */ = {
+			isa = PBXGroup;
+			children = (
+				8EBB2C9529D0A93300D65A62 /* LoggerManger.swift */,
+				8EB6ECD1298CCB42001C4538 /* AnyLogger.swift */,
+				8EB6ECD5298CD6CA001C4538 /* AnyLoggerSetting.swift */,
+				8EB6ECD3298CD6A6001C4538 /* AnyLoggerOutputProtocol.swift */,
+				8EF9B43E2986C53C00ACD29C /* FileLogger.swift */,
+				8EB6ECC5298B1C9C001C4538 /* FileLogSetting.swift */,
+				8EF9B4402987F58300ACD29C /* StdoutLogger.swift */,
+				8EB6ECC9298C7D92001C4538 /* SwiftLoggerLevelExtention.swift */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E98442F2884ECD400F0CFFA /* seisan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9844542884ECD600F0CFFA /* Build configuration list for PBXNativeTarget "seisan" */;
+			buildPhases = (
+				8E98442C2884ECD400F0CFFA /* Sources */,
+				8E98442D2884ECD400F0CFFA /* Frameworks */,
+				8E98442E2884ECD400F0CFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seisan;
+			packageProductDependencies = (
+				8E31529628D5377800089DD3 /* STORESPaymentsSDK */,
+				8E31529828D5377800089DD3 /* TCMPayment */,
+				8EF9B43B2986C18300ACD29C /* Logging */,
+				8E31F5A329D85C5200189BCA /* XMLCoder */,
+				8E8927232ABC620800C9C516 /* NIOTransportServices */,
+				8E89272C2ABC667300C9C516 /* NIOHTTP1 */,
+			);
+			productName = seisan;
+			productReference = 8E9844302884ECD400F0CFFA /* seisan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E98443F2884ECD600F0CFFA /* seisanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9844572884ECD600F0CFFA /* Build configuration list for PBXNativeTarget "seisanTests" */;
+			buildPhases = (
+				8E98443C2884ECD600F0CFFA /* Sources */,
+				8E98443D2884ECD600F0CFFA /* Frameworks */,
+				8E98443E2884ECD600F0CFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9844422884ECD600F0CFFA /* PBXTargetDependency */,
+			);
+			name = seisanTests;
+			productName = seisanTests;
+			productReference = 8E9844402884ECD600F0CFFA /* seisanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E9844492884ECD600F0CFFA /* seisanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E98445A2884ECD600F0CFFA /* Build configuration list for PBXNativeTarget "seisanUITests" */;
+			buildPhases = (
+				8E9844462884ECD600F0CFFA /* Sources */,
+				8E9844472884ECD600F0CFFA /* Frameworks */,
+				8E9844482884ECD600F0CFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E98444C2884ECD600F0CFFA /* PBXTargetDependency */,
+			);
+			name = seisanUITests;
+			productName = seisanUITests;
+			productReference = 8E98444A2884ECD600F0CFFA /* seisanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9844282884ECD400F0CFFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8E98442F2884ECD400F0CFFA = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1430;
+					};
+					8E98443F2884ECD600F0CFFA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8E98442F2884ECD400F0CFFA;
+					};
+					8E9844492884ECD600F0CFFA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8E98442F2884ECD400F0CFFA;
+					};
+				};
+			};
+			buildConfigurationList = 8E98442B2884ECD400F0CFFA /* Build configuration list for PBXProject "seisan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9844272884ECD400F0CFFA;
+			packageReferences = (
+				8E31529528D5377800089DD3 /* XCRemoteSwiftPackageReference "STORESPaymentsSDK-iOS" */,
+				8EF9B43A2986C18300ACD29C /* XCRemoteSwiftPackageReference "swift-log" */,
+				8E31F5A229D85C5200189BCA /* XCRemoteSwiftPackageReference "XMLCoder" */,
+				8E8927222ABC620800C9C516 /* XCRemoteSwiftPackageReference "swift-nio-transport-services" */,
+				8E89272B2ABC667300C9C516 /* XCRemoteSwiftPackageReference "swift-nio" */,
+			);
+			productRefGroup = 8E9844312884ECD400F0CFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E98442F2884ECD400F0CFFA /* seisan */,
+				8E98443F2884ECD600F0CFFA /* seisanTests */,
+				8E9844492884ECD600F0CFFA /* seisanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E98442E2884ECD400F0CFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E98443B2884ECD600F0CFFA /* Preview Assets.xcassets in Resources */,
+				8E15A3E52A5947D8003AC6FE /* BIZUDPGothic-Bold.ttf in Resources */,
+				8E425E2529D7963A00F95E5B /* Settings.bundle in Resources */,
+				8E15A3E22A5947D8003AC6FE /* BIZUDGothic-Regular.ttf in Resources */,
+				8E15A3E42A5947D8003AC6FE /* BIZUDPGothic-Regular.ttf in Resources */,
+				8E15A3E32A5947D8003AC6FE /* BIZUDGothic-Bold.ttf in Resources */,
+				8E9844382884ECD600F0CFFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E98443E2884ECD600F0CFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9844482884ECD600F0CFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E98442C2884ECD400F0CFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E603452297834BD00BE7D52 /* AppSettingRepositoryProtocol.swift in Sources */,
+				8E7E60EE28F3BA6A008E40FA /* StanbyView.swift in Sources */,
+				8E89271F2ABB2FC500C9C516 /* HTTPServer.swift in Sources */,
+				8EBBBA7B2A0106AA0007D34B /* ReceiptPrintProtocol.swift in Sources */,
+				8E374E29295F144500A676D3 /* Parity.swift in Sources */,
+				8E621CEA29C9D001001E2504 /* ShunoRepositoryProtocol.swift in Sources */,
+				8E603454297834EE00BE7D52 /* UserDefaultsRepository.swift in Sources */,
+				8E5285EB29E441A20097D68E /* ORCASettingState.swift in Sources */,
+				8E603460297EC23A00BE7D52 /* SettingValueAttr.swift in Sources */,
+				8E98445E2884FFCF00F0CFFA /* KesaiSelectView.swift in Sources */,
+				8E6034582979F9B900BE7D52 /* SettingError.swift in Sources */,
+				8E80126E29C0B504000A6499 /* PatientCardSeisanFinalizeViewModel.swift in Sources */,
+				8ED8FAD0293B7844006D05A1 /* SmaregiPlatformRepository.swift in Sources */,
+				8EBBBA792A00FE100007D34B /* ReceiptPrintService.swift in Sources */,
+				8E802E2928A881BB00D112D2 /* SeisanCompleteView.swift in Sources */,
+				8E2495102A79406000D1D192 /* PatientSeisanPrepareProtocol.swift in Sources */,
+				8EFFB68529BB756300D00551 /* CreditKesaiUseCase.swift in Sources */,
+				8E70F33D2902D13D00567AF1 /* CreditKesaiViewModel.swift in Sources */,
+				8E2C3F5829C52B0A008A96C6 /* TemporaryTransacitonAddItem.swift in Sources */,
+				8EA448EA28CF8BED00F8FC17 /* Customer.swift in Sources */,
+				8EA448F028CF8C8A00F8FC17 /* ModelError.swift in Sources */,
+				8EB6ECBE29895934001C4538 /* CashTransactionError.swift in Sources */,
+				8E08184B2985784D0046B1AC /* Groly300CommTestUseCase.swift in Sources */,
+				8E2C3F5C29C52C5B008A96C6 /* ORCARepository.swift in Sources */,
+				8E15A3EC2A5979BC003AC6FE /* RoundView.swift in Sources */,
+				8E2C3F6829C53732008A96C6 /* TemporaryTransacitonAddItemProtocol.swift in Sources */,
+				8EF9B43F2986C53C00ACD29C /* FileLogger.swift in Sources */,
+				8EF2379A28B06BEA00ED782F /* KesaiUseCaseProtocol.swift in Sources */,
+				8E776CA62A055BEE001ECF00 /* TransactionDetailID.swift in Sources */,
+				8EF631B228B27F730043E3D1 /* CashKesaiViewModel.swift in Sources */,
+				8E9844342884ECD400F0CFFA /* seisanApp.swift in Sources */,
+				8ED8FADC294E9F86006D05A1 /* Groly300AutoCashierAdapter.swift in Sources */,
+				8E80126C29C0B502000A6499 /* PatientCardSeisanFinalizeView.swift in Sources */,
+				8E60345A2979FBB900BE7D52 /* Groly300AutoCashierAdapterSetting.swift in Sources */,
+				8EF631B828B4F5B80043E3D1 /* SeisanCompleteViewModel.swift in Sources */,
+				8E7E6E4A29B0E30E006AB2BD /* CanPayout.swift in Sources */,
+				8E603466297FFC0600BE7D52 /* SmaregiPlatformRepositorySetting.swift in Sources */,
+				8E24952B2A7A8EF700D1D192 /* MIUProgramTestUseCase.swift in Sources */,
+				8EF2378828AD2F6D00ED782F /* CashKesaiState.swift in Sources */,
+				8EF631B628B3AF300043E3D1 /* KesaiSelectViewModel.swift in Sources */,
+				8E802E3C28A8C2F500D112D2 /* ReceiptSeisanUseCase.swift in Sources */,
+				8E93D6B729F42EA2008437C3 /* FileSetting.swift in Sources */,
+				8E74B60F2A06388E00E6F732 /* KesaiResult.swift in Sources */,
+				8EBBBA722A00A8EB0007D34B /* InfraManager.swift in Sources */,
+				8E8927272ABC63C300C9C516 /* CustomerDisplayAPIController.swift in Sources */,
+				8E0818402985440D0046B1AC /* SettingCheckProtocol.swift in Sources */,
+				8E603464297FF4E500BE7D52 /* TransactionResultRepositoryProtocol.swift in Sources */,
+				8EA5A0E428B8CB610018A45B /* CashTransactionProtocol.swift in Sources */,
+				8E60344F2978290700BE7D52 /* SettingViewModel.swift in Sources */,
+				8EB6ECCA298C7D92001C4538 /* SwiftLoggerLevelExtention.swift in Sources */,
+				8ECB179029C881E200B0F955 /* PatientCardBilling.swift in Sources */,
+				8EBBBA742A00AD2C0007D34B /* ReceiptPrinterSettingState.swift in Sources */,
+				8EF2379228AE8BE800ED782F /* GrolyR08AutoCashierAdapter.swift in Sources */,
+				8EE1060828BFAB92001F90A9 /* CashKesaiRefundView.swift in Sources */,
+				8E93D6B529F42E2C008437C3 /* AppEnvStartupService.swift in Sources */,
+				8EB6ECC12989597D001C4538 /* CashTransctionState.swift in Sources */,
+				8EB6ECC4298B1B86001C4538 /* LogSettingState.swift in Sources */,
+				8E2C3F6429C52F7A008A96C6 /* TSISmaregiForMedicalRepositorySetting.swift in Sources */,
+				8E60346C298165C600BE7D52 /* GrolyR08AutoCashierAdapterSettingState.swift in Sources */,
+				8ED8FADE294F495C006D05A1 /* AsyncTCPClient.swift in Sources */,
+				8E88D2FF2AAA949500C402AE /* ContinuousTextPrintData.swift in Sources */,
+				8EBB2C8E29CFC74100D65A62 /* TSISmaregiMedicalSettingState.swift in Sources */,
+				8EFFB67D29B61EEB00D00551 /* StanbyPatientCardViewModel.swift in Sources */,
+				8E2495292A7A85C400D1D192 /* MIUProgramSettingState.swift in Sources */,
+				8ED8FAD62944D95A006D05A1 /* ReceiptSeisanFinalizeView.swift in Sources */,
+				8E0818532986143E0046B1AC /* ViewSettingState.swift in Sources */,
+				8EA448EE28CF8C6E00F8FC17 /* BillingAmount.swift in Sources */,
+				8E74B60D2A06025B00E6F732 /* TransactionDetail.swift in Sources */,
+				8E08183B2984057A0046B1AC /* CregitSettingState.swift in Sources */,
+				8E60346A2980A52100BE7D52 /* AppSettingAutoCashierType.swift in Sources */,
+				8E6A118E2A9A38BA00D064E0 /* TempTransactionAddItemPrintService.swift in Sources */,
+				8E374E24295DC9F300A676D3 /* UInt16.swift in Sources */,
+				8EBB2C9429D09A0100D65A62 /* AppSettingGetService.swift in Sources */,
+				8EE1061028C43168001F90A9 /* ActivityIndicator.swift in Sources */,
+				8E08184429855EB40046B1AC /* ReceiptSeisanFinalizeService.swift in Sources */,
+				8E08184F298578BA0046B1AC /* SmaregiCommTestUseCase.swift in Sources */,
+				8E2495122A7942A400D1D192 /* MIUProgram.swift in Sources */,
+				8E621CE429C8A568001E2504 /* InOutType.swift in Sources */,
+				8E6034702981660400BE7D52 /* SmaregiPlatformSettingState.swift in Sources */,
+				8E2C3F6629C53615008A96C6 /* TemporaryTransacitonRepositoryProtocol.swift in Sources */,
+				8E621CDC29C88E61001E2504 /* BillingProtocol.swift in Sources */,
+				8E0818512986136C0046B1AC /* ViewSetting.swift in Sources */,
+				8E2C3F5429C5266E008A96C6 /* TSISmaregiMedicalRepository.swift in Sources */,
+				8EBBBA772A00EDD40007D34B /* Queue.swift in Sources */,
+				8E621CEE29C9F235001E2504 /* PatientCardSeisanFinalizeService.swift in Sources */,
+				8EA10F67288585F000041BCE /* CashKesaiView.swift in Sources */,
+				8E621CE829C95C96001E2504 /* KesaiMethodType.swift in Sources */,
+				8E081842298559120046B1AC /* SelectedAutoCashierState.swift in Sources */,
+				8EF5D1952A472884002FAFD8 /* TextPrintData.swift in Sources */,
+				8E603CF429FDE4AF00C16F80 /* EPosPrinterSetting.swift in Sources */,
+				8EF2379C28B07BE300ED782F /* ScreenRouter.swift in Sources */,
+				8E2495272A79500300D1D192 /* MIUProgramStub.swift in Sources */,
+				8E80126A29C0A396000A6499 /* AppSettingBarcodeType.swift in Sources */,
+				8E0818492985780F0046B1AC /* GrolyR08CommTestUseCase.swift in Sources */,
+				8E621CDE29C89063001E2504 /* BillingLocalID.swift in Sources */,
+				8EF631B428B3AD250043E3D1 /* StanbyViewModel.swift in Sources */,
+				8EBB2C9629D0A93300D65A62 /* LoggerManger.swift in Sources */,
+				8E621CE029C892A8001E2504 /* PatientBarcode.swift in Sources */,
+				8E80126829C0A35A000A6499 /* SelectedBarcodeState.swift in Sources */,
+				8E51B0FC28D607FE008565CD /* CreditKesaiView.swift in Sources */,
+				8EB6ECD8298D5211001C4538 /* STORESLogoutUseCase.swift in Sources */,
+				8E621CE229C8A513001E2504 /* InvoiceNo.swift in Sources */,
+				8EBBBA7D2A01DD7C0007D34B /* ReceiptPrintTestUseCase.swift in Sources */,
+				8EF9B4412987F58300ACD29C /* StdoutLogger.swift in Sources */,
+				8E374E22295DC9D700A676D3 /* UInt8.swift in Sources */,
+				8EFFB68329BB6B0000D00551 /* Amount.swift in Sources */,
+				8E60345C2979FC0500BE7D52 /* GrolyR08AutoCashierAdapterSetting.swift in Sources */,
+				8E6A118C2A9A291400D064E0 /* TempTransactionAddItemGetService.swift in Sources */,
+				8E15A3EA2A597591003AC6FE /* Shape.swift in Sources */,
+				8E89273A2AC1B33100C9C516 /* HTTPServerSettingState.swift in Sources */,
+				8EB6ECBC29895041001C4538 /* KesaiSelectUseCase.swift in Sources */,
+				8E5285ED29E450FB0097D68E /* ORCACommTestUseCase.swift in Sources */,
+				8E89272F2ABC7FC200C9C516 /* SeisanInfoConfirmUseCase.swift in Sources */,
+				8E89273D2AC390C000C9C516 /* IPAddr.swift in Sources */,
+				8EE1061428C78DB9001F90A9 /* seisanAppColor.swift in Sources */,
+				8EB6ECD4298CD6A7001C4538 /* AnyLoggerOutputProtocol.swift in Sources */,
+				8EC1542129E2B1AC00BD0FD1 /* CreditKesaiMockView.swift in Sources */,
+				8EB7374F28883B2D00622682 /* SettingView.swift in Sources */,
+				8E8188212A0A961300404C63 /* PatientCardSeisanSettingState.swift in Sources */,
+				8E8805962A9AB18D00ADFF2B /* CreditReceiptPrintService.swift in Sources */,
+				8E68FD322A0D9F03003FAC7A /* BillingDetailView.swift in Sources */,
+				8EB6ECC6298B1C9C001C4538 /* FileLogSetting.swift in Sources */,
+				8E2495142A794C9200D1D192 /* PatientSeisanPrepareService.swift in Sources */,
+				8EB6ECD2298CCB42001C4538 /* AnyLogger.swift in Sources */,
+				8EA448EC28CF8C1600F8FC17 /* ReceiptBarcode.swift in Sources */,
+				8EB6ECD6298CD6CA001C4538 /* AnyLoggerSetting.swift in Sources */,
+				8EBB2C9029CFE11E00D65A62 /* TSISmaregiMedicalCommTestUseCase.swift in Sources */,
+				8E60346E298165EE00BE7D52 /* Groly300AutoCashierAdapterSettingState.swift in Sources */,
+				8E621CEC29C9EA26001E2504 /* Shuno.swift in Sources */,
+				8EF2378428AD1AB400ED782F /* CashKesaiUseCase.swift in Sources */,
+				8E603474298168C500BE7D52 /* AppSettingState.swift in Sources */,
+				8E08184D298578850046B1AC /* STORESLoginUseCase.swift in Sources */,
+				8E08184629855F9B0046B1AC /* TransactionResult.swift in Sources */,
+				8ED8FAD82944D97E006D05A1 /* ReceiptSeisanFinalizeViewModel.swift in Sources */,
+				8E74B6112A068B4500E6F732 /* StubAutoCashierAdapter.swift in Sources */,
+				8E80126629BF6E02000A6499 /* SeisanType.swift in Sources */,
+				8E374E26295DCA0900A676D3 /* Date.swift in Sources */,
+				8EBB2C9A29D1123600D65A62 /* EPosPrinter.swift in Sources */,
+				8EFFB68129B625E600D00551 /* PatientCardBillingRepositoryProtocol.swift in Sources */,
+				8E621CE629C8A817001E2504 /* TemporaryTransaction.swift in Sources */,
+				8EFFB67F29B6234B00D00551 /* PatientCardSeisanUseCase.swift in Sources */,
+				8EF2379428AF069700ED782F /* AppState.swift in Sources */,
+				8E2C3F6029C52F24008A96C6 /* ORCARepoRepositorySetting.swift in Sources */,
+				8EEAFF1C29F4AFC0003E03D2 /* RoutingViewModel.swift in Sources */,
+				8E15A3E72A597525003AC6FE /* seisanAppFont.swift in Sources */,
+				8E7C64212A4DBE51008B26A1 /* AnnounceManager.swift in Sources */,
+				8EFFB67B29B61C9000D00551 /* StanbyPatientCardView.swift in Sources */,
+				8E08183E298410AC0046B1AC /* STORES.swift in Sources */,
+				8E9844612885157500F0CFFA /* MoneyFormat.swift in Sources */,
+				8E8927332AC0767400C9C516 /* CustomerDisplaySettingState.swift in Sources */,
+				8E1F765A289994C900C4FEAB /* ReceiptBilling.swift in Sources */,
+				8E0818552986AE4A0046B1AC /* AppSettingRepositoryFactory.swift in Sources */,
+				8E6034682980A35F00BE7D52 /* AppSetting.swift in Sources */,
+				8ED8FACD2923C46B006D05A1 /* RoutingView.swift in Sources */,
+				8E724C922A320669003D5B6D /* PatientCardSeisanSetting.swift in Sources */,
+				8E8927362AC07AB800C9C516 /* CustomerDisplaySetting.swift in Sources */,
+				8EBB2C8B29CFB7AE00D65A62 /* TemporaryTransactionID.swift in Sources */,
+				8EBB2C9229D070F100D65A62 /* AppSettingStateService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E98443C2884ECD600F0CFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9844452884ECD600F0CFFA /* seisanTests.swift in Sources */,
+				8E425E1E29D71DFC00F95E5B /* ORCARepositoryTests.swift in Sources */,
+				8E5583BF2AB8221A0056AC4B /* PatientNoBarcodeModifTests.swift in Sources */,
+				8E7E6E4E29B16588006AB2BD /* CanPayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9844462884ECD600F0CFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E98444F2884ECD600F0CFFA /* seisanUITests.swift in Sources */,
+				8E9844512884ECD600F0CFFA /* seisanUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E9844422884ECD600F0CFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E98442F2884ECD400F0CFFA /* seisan */;
+			targetProxy = 8E9844412884ECD600F0CFFA /* PBXContainerItemProxy */;
+		};
+		8E98444C2884ECD600F0CFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E98442F2884ECD400F0CFFA /* seisan */;
+			targetProxy = 8E98444B2884ECD600F0CFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E9844522884ECD600F0CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E9844532884ECD600F0CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9844552884ECD600F0CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"seisan/Preview Content\"";
+				DEVELOPMENT_TEAM = KK8996U27J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = seisan/info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "mレジ_セルフ精算";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "決済端末およびプリンターに接続するため、Bluetoothを使用します。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "決済端末およびプリンターに接続するため、Bluetoothを使用します。";
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "セキュリティ確保のため、位置情報が必要です。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TSI.ipad-kanja-seisan-seisan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "seisan/seisan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E9844562884ECD600F0CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"seisan/Preview Content\"";
+				DEVELOPMENT_TEAM = KK8996U27J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = seisan/info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "mレジ_セルフ精算";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "決済端末およびプリンターに接続するため、Bluetoothを使用します。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "決済端末およびプリンターに接続するため、Bluetoothを使用します。";
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "セキュリティ確保のため、位置情報が必要です。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TSI.ipad-kanja-seisan-seisan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "seisan/seisan-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8E9844582884ECD600F0CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3HX2K8JJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kajiki.biz.seisanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seisan.app/seisan";
+			};
+			name = Debug;
+		};
+		8E9844592884ECD600F0CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3HX2K8JJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kajiki.biz.seisanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seisan.app/seisan";
+			};
+			name = Release;
+		};
+		8E98445B2884ECD600F0CFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3HX2K8JJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kajiki.biz.seisanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = seisan;
+			};
+			name = Debug;
+		};
+		8E98445C2884ECD600F0CFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3HX2K8JJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kajiki.biz.seisanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = seisan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E98442B2884ECD400F0CFFA /* Build configuration list for PBXProject "seisan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9844522884ECD600F0CFFA /* Debug */,
+				8E9844532884ECD600F0CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9844542884ECD600F0CFFA /* Build configuration list for PBXNativeTarget "seisan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9844552884ECD600F0CFFA /* Debug */,
+				8E9844562884ECD600F0CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9844572884ECD600F0CFFA /* Build configuration list for PBXNativeTarget "seisanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9844582884ECD600F0CFFA /* Debug */,
+				8E9844592884ECD600F0CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E98445A2884ECD600F0CFFA /* Build configuration list for PBXNativeTarget "seisanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E98445B2884ECD600F0CFFA /* Debug */,
+				8E98445C2884ECD600F0CFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E31529528D5377800089DD3 /* XCRemoteSwiftPackageReference "STORESPaymentsSDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Coiney-SDK/STORESPaymentsSDK-iOS.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.4;
+			};
+		};
+		8E31F5A229D85C5200189BCA /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:CoreOffice/XMLCoder.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.16.0;
+			};
+		};
+		8E8927222ABC620800C9C516 /* XCRemoteSwiftPackageReference "swift-nio-transport-services" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:apple/swift-nio-transport-services.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.19.0;
+			};
+		};
+		8E89272B2ABC667300C9C516 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:apple/swift-nio.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.59.0;
+			};
+		};
+		8EF9B43A2986C18300ACD29C /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:apple/swift-log.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E31529628D5377800089DD3 /* STORESPaymentsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E31529528D5377800089DD3 /* XCRemoteSwiftPackageReference "STORESPaymentsSDK-iOS" */;
+			productName = STORESPaymentsSDK;
+		};
+		8E31529828D5377800089DD3 /* TCMPayment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E31529528D5377800089DD3 /* XCRemoteSwiftPackageReference "STORESPaymentsSDK-iOS" */;
+			productName = TCMPayment;
+		};
+		8E31F5A329D85C5200189BCA /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E31F5A229D85C5200189BCA /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+		8E8927232ABC620800C9C516 /* NIOTransportServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E8927222ABC620800C9C516 /* XCRemoteSwiftPackageReference "swift-nio-transport-services" */;
+			productName = NIOTransportServices;
+		};
+		8E89272C2ABC667300C9C516 /* NIOHTTP1 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E89272B2ABC667300C9C516 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOHTTP1;
+		};
+		8EF9B43B2986C18300ACD29C /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8EF9B43A2986C18300ACD29C /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8E9844282884ECD400F0CFFA /* Project object */;
+}

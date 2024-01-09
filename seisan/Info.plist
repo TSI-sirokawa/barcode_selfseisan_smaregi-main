@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ja</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BIZUDGothic-Bold.ttf</string>
+		<string>BIZUDGothic-Regular.ttf</string>
+		<string>BIZUDPGothic-Bold.ttf</string>
+		<string>BIZUDPGothic-Regular.ttf</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.epson.escpos</string>
+		<string>com.coiney.Coiney</string>
+	</array>
+</dict>
+</plist>
